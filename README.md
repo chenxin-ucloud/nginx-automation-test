@@ -169,21 +169,21 @@ pytest tests/ --reruns 2 --reruns-delay 1
 ```yaml
 test_env:
   client:
-    host: "192.168.2.51"
+    host: "192.168.2.xxx"
     username: "root"
-    password: "xin2024."
+    password: "******"
   nginx_server:
-    host: "192.168.2.250"
+    host: "192.168.2.xxx"
     username: "root"
-    password: "xin2024."
+    password: "******"
   backend_1:
-    host: "192.168.2.202"
+    host: "192.168.2.xxx"
     username: "root"
-    password: "xin2024."
+    password: "******"
   backend_2:
-    host: "192.168.2.136"
+    host: "192.168.2.xxx"
     username: "root"
-    password: "xin2024."
+    password: "******"
 ```
 
 ## 贡献指南
