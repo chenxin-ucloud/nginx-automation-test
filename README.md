@@ -40,35 +40,20 @@
 - **Python**: 3.8 或更高版本
 - **操作系统**: Linux/macOS (推荐), Windows (需适配)
 
-### 1. 安装Python依赖
 
-```bash
-# 创建虚拟环境（推荐）
-python -m venv venv
-
-# 激活虚拟环境
-# Linux/macOS:
-source venv/bin/activate
-# Windows:
-# venv\Scripts\activate
-
-# 安装依赖
-pip install -r requirements.txt
-```
-
-### 2. 环境初始化
+### 1. 环境初始化
 
 ```bash
 ./scripts/setup_env.sh
 ```
 
-### 3. 部署后端Mock服务
+### 2. 部署后端Mock服务
 
 ```bash
 ./scripts/deploy_backend.sh
 ```
 
-### 4. 运行测试
+### 3. 运行测试
 
 ```bash
 # 运行所有P0测试
@@ -88,7 +73,6 @@ pip install -r requirements.txt
 
 # 失败重试
 ./scripts/run_tests.sh -a -r 2
-```
 ```
 
 ## 目录结构
